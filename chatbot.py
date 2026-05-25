@@ -1,7 +1,7 @@
 print ("🤖chatbot :  type Hello! to start  type 'bye' to exit ." )
 
 while True : 
-    user =input ("you :"). lower()
+    user = input ("you :"). strip() .lower()
 
     if user == "hello":
         print ("🤖chatbot : hi there! ")
